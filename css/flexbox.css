@@ -1,0 +1,125 @@
+.headerPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headerPrincipal-nav {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.rodapePrincipal-contatoForm {
+    display: flex;
+    width: 25%;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    flex-wrap: wrap;
+
+}
+
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
+.videoSobre .container{
+    display: flex;
+
+}
+.videoSobre-sobre{
+   
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.videoSobre-button{
+    width: 100%;
+    margin-top: auto;
+}
+.videoSobre-video{
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+/*RESPONSIVE*/
+@media (max-width:768px) {
+
+
+    .headerPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav {
+
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos {
+        flex-direction: column;
+
+    }
+
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+    .rodapePrincipal-navMap-list {
+        height: auto;
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-patrocinadores-list {
+        width: 100%;
+    }
+
+    .rodapePrincipal-contatoForm  {
+        width: 100%;
+        justify-content: center;
+      
+    }
+    .rodapePrincipal-contatoForm-legend{
+     display: flex;
+    justify-content: spa;
+    }
+
+    .headerPrincipal-nav-link-app{
+        order: -1;
+    }
+    .videoSobre .container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+  
+  
+}
